@@ -45,6 +45,23 @@
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       margin-bottom: 30px;
     }
+    /* Estilos para a imagem */
+    .profile-img {
+      border-radius: 50%;  /* Faz a imagem ficar redonda */
+      width: 150px;
+      height: 150px;
+      object-fit: cover;  /* Garantir que a imagem preencha o círculo */
+      margin-bottom: 20px;
+    }
+    /* Alinha a imagem à esquerda e o texto à direita */
+    .about-section {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    .about-text {
+      margin-left: 20px;  /* Adiciona um espaçamento entre a imagem e o texto */
+    }
   </style>
 </head>
 <body>
@@ -82,11 +99,17 @@
 
   <!-- About Section -->
   <section class="container mt-5">
-    <div class="about-content">
-      <h2>Quem Sou Eu</h2>
-      <p>Olá, meu nome é Melissa Isizaka, sou Analista de Dados e Cientista de Dados com uma paixão por transformar dados brutos em informações úteis para tomada de decisões estratégicas.</p>
-      <p>Com uma sólida formação em estatística e experiência em ferramentas como Python, SQL, Tableau e Power BI, tenho me especializado em técnicas de análise e visualização de dados para resolver problemas reais de negócios.</p>
-      <p>Além disso, busco sempre estar atualizada com as últimas tendências em Machine Learning, Inteligência Artificial e Big Data, para oferecer soluções inovadoras e eficientes.</p>
+    <div class="about-section">
+      <!-- Foto do Perfil -->
+      <img src="imagens/IMG_4239.jpg" alt="Melissa Isizaka" class="profile-img">
+
+      <!-- Texto sobre a pessoa -->
+      <div class="about-text">
+        <h2>Quem Sou Eu</h2>
+        <p>Olá, meu nome é Melissa Isizaka, sou Analista de Dados e Cientista de Dados com uma paixão por transformar dados brutos em informações úteis para tomada de decisões estratégicas.</p>
+        <p>Com uma sólida formação em estatística e experiência em ferramentas como Python, SQL, Tableau e Power BI, tenho me especializado em técnicas de análise e visualização de dados para resolver problemas reais de negócios.</p>
+        <p>Além disso, busco sempre estar atualizada com as últimas tendências em Machine Learning, Inteligência Artificial e Big Data, para oferecer soluções inovadoras e eficientes.</p>
+      </div>
     </div>
 
     <div class="about-content">
