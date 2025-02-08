@@ -3,93 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
-    <!-- Incluindo o CSS do Bootstrap 5 -->
+    <title>Início - Meu Portfólio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Estilos personalizados para o tema escuro -->
     <style>
+        /* Estilo básico para a página */
         body {
             background-color: #121212;
             color: #f5f5f5;
         }
-        .navbar {
+
+        header {
             background-color: #333;
-        }
-        .hero-section {
-            background-color: #1e1e1e;
-            padding: 60px 0;
+            color: #fff;
+            padding: 10px 0;
             text-align: center;
         }
-        .footer {
-            background-color: #333;
-            padding: 20px 0;
+
+        header h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .container h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .descricao {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        footer {
             text-align: center;
-            color: #ccc;
-        }
-        h1, h2 {
-            color: #f5f5f5;
-        }
-        a {
-            color: #f5f5f5;
-        }
-        a:hover {
-            color: #00bcd4; /* Cor ao passar o mouse */
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
         }
     </style>
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container">
-      <a class="navbar-brand" href="#">Meu Portfólio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Início</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="sobre.html">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="projetos.html">Projetos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="certificados.html">Certificados</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #333;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Meu Portfólio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projetos.html">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="certificados.html">Certificados</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-  <!-- Hero Section -->
-  <section class="hero-section">
-    <div class="container">
-      <h1>Olá, sou Melissa Isizaka</h1>
-      <p class="lead">Analista de Dados | Cientista de Dados</p>
-    </div>
-  </section>
+    <!-- Conteúdo Principal -->
+    <section class="container mt-5">
+        <h2>Bem-vindo ao meu portfólio!</h2>
+        <p class="descricao">
+            Olá! Sou a Melissa, profissional apaixonada por tecnologia e inovação. Com um histórico em análise e desenvolvimento de sistemas e uma formação sólida em TI, estou sempre buscando novas oportunidades para aplicar meus conhecimentos em projetos desafiadores.
+            <br><br>
+           Ao longo da minha carreira, atuei em empresas de diferentes portes, sempre com foco no desenvolvimento de software e em tecnologias como Java, C#, JavaScript, .Net e SQL. Também fui responsável pelo levantamento de requisitos e elaboração de relatórios, sempre com o objetivo de entregar soluções eficientes e alinhadas com as necessidades do cliente.
 
-  <!-- Seção de Projetos -->
-  <section class="container mt-5">
-    <h2>Projetos</h2>
-    <ul>
-	  <li><a href="https://github.com/misizaka/Portfolio/blob/main/Projeto1/AnalisedeDados/Relat%C3%B3rio%20Autom%C3%A1tico%20de%20Mercado/src/Relat%C3%B3rio%20Autom%C3%A1tico%20de%20Mercado.ipynb">Projeto 1: Análise de Dados com Python</a></li>
-      <li><a href="https://github.com/seu-usuario/projeto1">Projeto 1.1: Análise de Dados com Python</a></li>
-      <li><a href="https://github.com/seu-usuario/projeto2">Projeto 2: Visualização com Power BI</a></li>
-      <li><a href="certificados.html">Certificados</a></li>
-    </ul>
-  </section>
+Atualmente, estou ampliando meus conhecimentos com uma pós-graduação em Gerenciamento de Projetos (MBA) e um curso de Ciência de Dados, buscando combinar minhas habilidades técnicas com uma visão mais estratégica e analítica.
 
-  <!-- Footer -->
-  <footer class="footer">
-    <p>Contato: melissa.isizaka@gmail.com</p>
-  </footer>
+Com toda essa experiência e dedicação, acredito que minhas habilidades técnicas e comportamentais podem contribuir significativamente para o crescimento da empresa XPTO, agregando valor por meio da inovação, eficiência operacional e resultados sólidos.
 
-  <!-- Incluindo o JS do Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+		   <br><br>
+            Fique à vontade para explorar o meu portfólio e descobrir mais sobre os meus projetos e experiências.
+        </p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Meu Portfólio - Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Incluindo o JS do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
