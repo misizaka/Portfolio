@@ -1,1 +1,21 @@
+# 📊 Automação de Relatórios Financeiros
+
+É um script Python que coleta dados financeiros do mercado, gera gráficos de performance e envia um relatório automatizado por e-mail.
+
+## ✨ Funcionalidades:
+✔️ Baixa cotações do Yahoo Finance (Ibovespa, S&P 500, Dólar e Bitcoin)  
+✔️ Gera gráficos de desempenho nos últimos 6 meses  
+✔️ Envia um e-mail automatizado com os gráficos anexados  
+
+## 🔧 Tecnologias:
+- Python
+- Yahoo Finance API (`yfinance`)
+- SMTP (envio de e-mails)
+- Matplotlib (gráficos)
+- Pandas (manipulação de dados)
+
+## 🚀 Como usar:
+1. Clone este repositório:
+   ```sh
+   git clone https://github.com/misizaka/colocarocaminhotodo.git
 
