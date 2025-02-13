@@ -12,5 +12,4 @@ Olá! Sou Melissa, uma analista de dados apaixonada por transformar grandes volu
 
 ## Projetos
 
-(To do)
-
+Doin´ brick by brick
