@@ -16,11 +16,13 @@
       background-color: #333;
     }
 
-.navbar-nav .nav-link.active {
-  background-color: transparent !important; /* Remove o fundo azul */
-  color: #f5f5f5 !important; /* Mantém a cor padrão */
-  outline: none !important; /* Remove a borda de foco */
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-item.show .nav-link {
+  background-color: transparent !important; /* Remove qualquer fundo */
+  color: #f5f5f5 !important; /* Garante a cor branca */
+  border-bottom: 2px solid #00bcd4; /* Opcional: destaque sutil */
 }
+
     .hero-section {
       background-color: #1e1e1e;
       padding: 60px 0;
